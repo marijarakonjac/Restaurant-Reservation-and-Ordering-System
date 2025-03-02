@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 27, 2024, 1:57:19 AM
+    Author     : Marija
+*/
+
+body, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeee6;
+    text-align: left;
+}
+
+.side{
+    background-image: url('pozadina.jpg');
+}
+
+.menu{
+    background-color: #ffb366;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+a.restoran-link:visited, a.restoran-link:link {
+    color: black !important;
+}
+
+a.restoran-link:hover {
+    color: black !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited, a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header {
+    background-color: 	#b33c00; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: 	#b33c00;
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.full-height{
+    height: 100vh;
+}
+
+.left-aligned-text {
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
